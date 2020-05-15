@@ -1,0 +1,52 @@
+body {
+    padding: 50px;
+    position:relative;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+}
+
+
+
+.description {
+    position: absolute;
+    left: 825px;
+    bottom: 250px;
+    line-height: 3;
+    color: whitesmoke;
+
+}
+
+.description h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 0.8;
+}
+
+.image, .description {
+    margin-top: 50px;
+    
+}
+
+.description p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 0.8;
+    
+}
+
+.btn {
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: hsl(257, 40%, 49%);
+    background-color: whitesmoke;
+    
+}
+
+.btn:hover {
+    color: whitesmoke;
+    background-color: hsl(257, 40%, 49%);
+    border: 2px solid whitesmoke;
+}
